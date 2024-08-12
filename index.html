@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Codificador de textos da Kiki!</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="./images/logo.png" alt="logo jiji">
+    </header>
+    <main>
+        <section class="container">
+            <div class="input-section">
+                <textarea class="text-input" rows="4" cols="33" maxlength="140"  placeholder="Digite seu texto"></textarea>
+            </div>  
+        
+            <div class="group-button">
+            <div class="info">
+                    <img src="/images/exclamation.png" alt="exclamation">
+                    <h6>Apenas letras minúsculas e sem acento.</h6>
+            </div>
+           
+            <div class="buttons">
+                <button class="cripto" id="encrypt-btn">Criptografar</button>
+                <button class="descripto" id="decrypt-btn">Descriptografar</button>
+            </div>
+
+        </div>
+
+        </section>
+        
+        <section class="output-section">
+            <div class="mensagem">
+                <div class="sources">
+                <img src="images/kiki.png" alt="kiki image" class="kiki-image">
+                <h3>Nenhuma mensagem encontrada</h3>
+                <h6> Digite um texto que você deseja criptografar ou descriptografar. </h6>  
+            </div>      
+            </div>
+
+            <button class="copiar" id="copy-btn">Copiar</button>
+    
+        </section>
+    </main>
+    <footer>
+        <a href=""></a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
